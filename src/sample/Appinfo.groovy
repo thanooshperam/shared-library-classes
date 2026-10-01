@@ -5,7 +5,8 @@ class AppINfo{
     int port
     String envirnoment    
 
-    AppInfo(String name,int port,String envirnoment){
+    AppInfo(Steps,String name,int port,String envirnoment){
+        this.steps=steps
         this.name=name
         this.port=port
         tis.environment=environment
